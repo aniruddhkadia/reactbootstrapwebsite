@@ -1,0 +1,57 @@
+How to Deploy React website on Git using git pages.
+
+https://www.youtube.com/watch?v=mdO18zv3oGQ
+How To Host React JS Website Live for Free using GitHub in 2020
+Thapa Technical 
+==========================================================
+
+step 1:
+
+Step 1A:
+First we have to work in our local system
+git bash open karavu
+
+git status
+git init
+git staus
+git add .
+git commit -m '<my Message>'
+Step 1B
+git remote add origin https://github.com/aniruddhkadia/React18Ecommerce-app.git
+git push -u origin main
+
+
+Step 1B:
+We have to login in git-browser
+create repository
+kai pan select karavanu nai (README Select nai karavanu)
+
+==========================================================
+
+step 2 
+We have to createt git page
+Ref: https://create-react-app.dev/docs/deployment/
+
+
+1. Add following in package.json file
+"homepage": "https://aniruddhkadia.github.io/React18Ecommerce-app",
+
+2. RUN follwoing command in vs code where is react app.
+npm install --save gh-pages
+
+3. Add following in package.json file under scripts
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+ 
+4. RUN follwoing command in vs code where is react app.
+npm run deploy
+
+Site is now ready in git browser.
+https://aniruddhkadia.github.io/React18Ecommerce-app/
+
+ 
+ 
+
+
+
+
