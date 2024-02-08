@@ -18,6 +18,7 @@ git add .
 git commit -m '<my Message>'
 Step 1B
 git remote add origin https://github.com/aniruddhkadia/React18Ecommerce-app.git
+git branch -M main
 git push -u origin main
 
 
