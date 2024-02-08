@@ -47,6 +47,16 @@ npm install --save gh-pages
 4. RUN follwoing command in vs code where is react app.
 npm run deploy
 
+==========================================================
+Now we have to add two file 
+ package-lock.json
+ package.json
+
+git add .
+git commit -m 'adding package file'
+git push -u origin main
+
+
 Site is now ready in git browser.
 https://aniruddhkadia.github.io/React18Ecommerce-app/
 
